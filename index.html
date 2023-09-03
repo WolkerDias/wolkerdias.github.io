@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wolker Dias - Cientista de Dados</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/icon-python.svg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Wolker Dias" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Wolker Dias">Wolker Dias</h1>
+
+          <p class="title">Cientista de Dados</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mostrar contatos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">E-mail</p>
+
+              <a href="mailto:wolker.sd@hotmail.com" class="contact-link">wolker.sd@hotmail.com</a>
+            </div>
+
+          </li>
+          <!--
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telefone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+55 (67) X XXXX-XXXX</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li>
+-->
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localização</p>
+
+              <address>Jardim-MS, Brasil</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/wolkerdias" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/wolkerdias" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/wolkerdias" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Sobre</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resumo</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfólio</button>
+          </li>
+          <!--
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+          -->
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contato</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #SOBRE
+      -->
+
+      <article class="sobre  active" data-page="sobre">
+
+        <header>
+          <h2 class="h2 article-title">Sobre mim</h2>
+        </header>
+
+        <section class="about-text">
+
+          <p>
+            Sou um Cientista de Dados, Bacharel em Administração de Empresas e Licenciado em Computação apaixonado por
+            desafios, negócios e tecnologia.
+            Auxilio empresas na tomada de decisões estratégicas, oferecendo soluções eficientes para problemas de
+            negócios aplicando habilidades técnicas e ferramentas na análise de grandes conjuntos de dados.
+          </p>
+          <p>
+            Tenho experiência em técnicas estatísticas e modelos de machine learning utilizando ferramentas como
+            <strong>Excel</strong>, <strong>SQL</strong>, <strong>Power BI</strong> e <strong>Python</strong> para
+            identificar padrões, tendências e relações, gerando insights e respondendo perguntas de negócio que
+            contribuem para a otimização dos lucros e a
+            redução dos custos empresariais.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Principais técnicas</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-estatistica.svg
+                " alt="Estatística Descritiva" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Estatística Descritiva</h4>
+
+                <p class="service-item-text">
+                  Transformação de dados em conhecimento, gerando poderosos insights e tomando as melhores decisões
+                  utilizando técnicas simples e práticas de Estatística Descritiva.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-scatter-chart.svg" alt="Análise de Correlação e Associação" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Análise de Correlação e Associação</h4>
+
+                <p class="service-item-text">
+                  Entendimento de como cada variável da base de dados se relaciona usando técnicas de correlação e
+                  associação.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-predicao.svg" alt="Probabilidade e Análise Preditiva" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Probabilidade e Análise Preditiva</h4>
+
+                <p class="service-item-text">
+                  Utilização de técnicas de probabilidade e análise preditiva para quantificar incertezas e tomar as
+                  melhores decisões.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-amostra.svg" alt="Inferência Estatística" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Inferência Estatística</h4>
+
+                <p class="service-item-text">
+                  Utilização de técnicas que possibilitam a "extensão" a um grande conjunto de dados das informações e
+                  conclusões obtidas a partir de uma amostra.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-query.svg" alt="Extração e manipulação de dados em SQL" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Extração e manipulação de dados em SQL</h4>
+
+                <p class="service-item-text">
+                  Criação de consultas sofisticadas e combinação de informações de várias fontes para responder a
+                  perguntas complexas de negócio.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-python.svg" alt="Python para Análise de Dados e Machine Learning"
+                  width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python para Análise de Dados e Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Utilização da linguagem Python para manipular, processar, limpar e extrair informações de conjuntos de
+                  dados de forma eficiente.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-test-ab.svg" alt="Testes de Hipóteses" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Testes de Hipóteses</h4>
+
+                <p class="service-item-text">
+                  Avaliação de suposições que auxiliam as empresas a basear suas estratégias e ações em dados e
+                  evidências estatísticas sólidas.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dashboard.svg" alt="Visualização de dados" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Visualização de dados</h4>
+
+                <p class="service-item-text">
+                  Criação de representações gráficas de dados para resumir, monitorar e apresentar informações
+                  importantes de maneira rápida e de fácil compreenção.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-machine-learning.svg" alt="Machine Learning e IA" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning e IA</h4>
+
+                <p class="service-item-text">
+                  Automatização de tarefas e identificação de padrões e resultados precisos que impulsionam a eficiência
+                  e a competitividade das empresas.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-metodologia.svg" alt="Metodologia de Projetos de Dados" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Metodologia de Projetos de Dados</h4>
+
+                <p class="service-item-text">
+                  Estruturação adequada de projeto de dados para trabalhar de forma eficiente e gerar resultados de
+                  forma organiazada.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+-->
+
+        <!--
+          - testimonials modal
+        -->
+        <!--
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+-->
+
+        <!--
+          - skills
+        -->
+
+        <section class="skills">
+
+          <h3 class="h3 skills-title">Skills</h3>
+
+          <ul class="skills-list has-scrollbar">
+
+            <li class="skills-item">
+              <a href="https://www.microsoft.com/pt-br/microsoft-365/excel" target="_blank">
+                <img src="./assets/images/excel.svg" alt="excel logo">
+              </a>
+              <p class="skills-item-text">Excel</p>
+            </li>
+
+            <li class="skills-item">
+              <a href="https://powerbi.microsoft.com/pt-br" target="_blank">
+                <img src="./assets/images/power-bi.svg" alt="power bi logo">
+              </a>
+              <p class="skills-item-text">Power BI</p>
+            </li>
+
+            <li class="skills-item">
+              <a href="https://www.oracle.com/br/database/technologies/appdev/sql.html" target="_blank">
+                <img src="./assets/images/sql.svg" alt="SQL logo">
+              </a>
+              <p class="skills-item-text">SQL</p>
+            </li>
+
+            <li class="skills-item">
+              <a href="https://www.python.org" target="_blank">
+                <img src="./assets/images/python.svg" alt="python logo">
+              </a>
+              <p class="skills-item-text">Python</p>
+            </li>
+
+            <li class="skills-item">
+              <a href="https://jupyter.org" target="_blank">
+                <img src="./assets/images/jupyter.svg" alt="jupyter logo">
+              </a>
+              <p class="skills-item-text">Jupyter</p>
+            </li>
+
+            <li class="skills-item">
+              <a href="https://numpy.org" target="_blank">
+                <img src="./assets/images/numpy.svg" alt="numpy logo">
+              </a>
+              <p class="skills-item-text">Numpy</p>
+            </li>
+
+            <li class="skills-item">
+              <a href="https://pandas.pydata.org" target="_blank">
+                <img src="./assets/images/pandas.svg" alt="pandas logo">
+              </a>
+              <p class="skills-item-text">Pandas</p>
+            </li>
+
+            <li class="skills-item">
+              <a href="https://matplotlib.org" target="_blank">
+                <img src="./assets/images/matplotlib.svg" alt="matplotlib logo">
+              </a>
+              <p class="skills-item-text">Matplotlib</p>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUMO
+      -->
+
+      <article class="resumo" data-page="resumo">
+
+        <header>
+          <h2 class="h2 article-title">Resumo</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formação</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PREDITIVA ANALYTICS TREINAMENTOS LTDA</h4>
+
+              <span>2023 — Presente</span>
+
+              <p class="timeline-text">
+                Formação Gerando Valor com Dados
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">A ÚNICA VERDADE POSSÍVEL - AUVP</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                Formação Investidor Nacional e Internacional
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Instituto Federal de Mato Grosso do Sul - IFMS</h4>
+
+              <span>2018 — 2023</span>
+
+              <p class="timeline-text">
+                Licenciatura em Computação
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Universidade Anhanguera - Uniderp</h4>
+
+              <span>2011 — 2017</span>
+
+              <p class="timeline-text">
+                Bacharelado em Administração de Empresas
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiência</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cientista de Dados</h4>
+
+              <span>2023 — Presente</span>
+
+              <p class="timeline-text">
+                Carandá Comércio e Representações
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Analista de Negócios</h4>
+
+              <span>2022 — Presente</span>
+
+              <p class="timeline-text">
+                Carandá Comércio e Representações
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Gerente de e-commerce</h4>
+
+              <span>2021 — Presente</span>
+
+              <p class="timeline-text">
+                Carandá Comércio e Representações
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Gerente de Operações</h4>
+
+              <span>2018 — 2021</span>
+
+              <p class="timeline-text">
+                Carandá Comércio e Representações
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Auxiliar Administrativo</h4>
+
+              <span>2016 — 2018</span>
+
+              <p class="timeline-text">
+                Carandá Comércio e Representações
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Estoquista</h4>
+
+              <span>2015 — 2016</span>
+
+              <p class="timeline-text">
+                Carandá Comércio e Representações
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!--        
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">People Analytics</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+-->
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfólio" data-page="portfólio">
+
+        <header>
+          <h2 class="h2 article-title">Portfólio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Tudo</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>People Analytics</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Fintechs</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Marketing Digital e CRM</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Agro</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Legal Analytics</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Selecione uma categoria</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Tudo</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>People Analytics</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Fintechs</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Marketing Digital e CRM</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Agro</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Legal Analytics</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="marketing digital e crm">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/em-construcao.jpg" alt="Churn em um aplicativo de comida" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Churn em um aplicativo de comida</h3>
+
+                <p class="project-category">Marketing Digital e CRM</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="marketing digital e crm">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/em-construcao.jpg" alt="Recomendação de Produtos em um E-Commerce"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Recomendação de Produtos em um E-Commerce</h3>
+
+                <p class="project-category">Marketing Digital e CRM</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="people analytics">
+              <a href="https://github.com/WolkerDias" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/turnover.jpg" alt="turnover" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Diminuição de Turnover de colaboradores</h3>
+
+                <p class="project-category">People Analytics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="fintechs">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/em-construcao.jpg" alt="Cálculo do VaR de uma Carteira de Investimentos"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cálculo do VaR de uma Carteira de Investimentos</h3>
+
+                <p class="project-category">Fintechs</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="people analytics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/plano-de-saude.jpg" alt="plano de saúde" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Otimização de Custos de Plano de Saúde</h3>
+
+                <p class="project-category">People Analytics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="people analytics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/performance.jpg" alt="performance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Predição de Performance de Colaboradores</h3>
+
+                <p class="project-category">People Analytics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="marketing digital e crm">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/em-construcao.jpg" alt="Vendas em uma Startup" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Vendas em uma Startup</h3>
+
+                <p class="project-category">Marketing Digital e CRM</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="fintechs">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/em-construcao.jpg" alt="Controle da Inadimplência em operações de Crédito"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Controle da Inadimplência em operações de Crédito</h3>
+
+                <p class="project-category">Fintechs</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="fintechs">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/em-construcao.jpg" alt="Renovação de Seguros" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Renovação de Seguros</h3>
+
+                <p class="project-category">Fintechs</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="agro">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/em-construcao.jpg"
+                    alt="Precificação de Garantias de Crédito por Safras de Café" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Precificação de Garantias de Crédito por Safras de Café</h3>
+
+                <p class="project-category">Agro</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="legal analytics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/em-construcao.jpg" alt="Otimização de Custos de Ações Judiciais"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Otimização de Custos de Ações Judiciais</h3>
+
+                <p class="project-category">Legal Analytics</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+      <!--     
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+-->
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contato" data-page="contato">
+
+        <header>
+          <h2 class="h2 article-title">Contato</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29700.941347102256!2d-56.14776625!3d-21.48351335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x947d2122d2a44735%3A0xb6cea40d6c0794ba!2sJardim%2C%20MS%2C%2079240-000!5e0!3m2!1spt-BR!2sbr!4v1693756778933!5m2!1spt-BR!2sbr"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Envie uma mensagem</h3>
+
+          <form action="https://formsubmit.co/wolker.sd@hotmail.com" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="hidden" name="_next" value="https://wolkerdias.github.io">
+              <input type="text" name="name" class="form-input" placeholder="Nome" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="E-mail" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Mensagem" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar Mensagem</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
