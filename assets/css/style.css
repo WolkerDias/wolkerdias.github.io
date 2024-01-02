@@ -331,8 +331,8 @@ main {
   gap: 15px;
 }
 
-.avatar-box {
-  background: var(--bg-gradient-onyx);
+.avatar-box img{
+  background: var(--orange-yellow-crayola);
   border-radius: 20px;
 }
 
